@@ -1,0 +1,13 @@
+dataset,domain,image,width,height,mode,n_objects,has_label_file,n_degenerate,n_out_of_frame,on_disk
+uas_waterfowl_experts,aerien_non_marin,BDA_12C_20181127_1.jpg,5472,3648,RGB,83,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_12C_20181127_2.jpg,5472,3648,RGB,440,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_12C_20181127_3.jpg,5472,3648,RGB,722,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181106_1.jpg,5472,3648,RGB,162,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181106_2.jpg,5472,3648,RGB,351,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181106_3.jpg,5472,3648,RGB,62,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181106_4.jpg,5472,3648,RGB,115,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181107_1.jpg,5472,3648,RGB,77,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181107_2.jpg,5472,3648,RGB,23,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181107_3.jpg,5472,3648,RGB,86,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,BDA_18A4_20181107_4.jpg,5472,3648,RGB,84,1,0,0,1
+uas_waterfowl_experts,aerien_non_marin,mxw_L13_20181215_1.jpg,5472,3648,RGB,38,1,0,0,1

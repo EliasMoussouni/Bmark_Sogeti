@@ -1,0 +1,272 @@
+{
+  "beluga_seeker_sam vs community_fish_detection": {
+    "D": 0.9083660665844636,
+    "p": 0.0,
+    "n_a": 1622,
+    "n_b": 200000
+  },
+  "beluga_seeker_sam vs izembek_lagoon_birds": {
+    "D": 0.9958145556124854,
+    "p": 0.0,
+    "n_a": 1622,
+    "n_b": 199925
+  },
+  "beluga_seeker_sam vs noaa_arctic_seals_full_rgb": {
+    "D": 0.9434501979584914,
+    "p": 0.0,
+    "n_a": 1622,
+    "n_b": 14311
+  },
+  "beluga_seeker_sam vs noaa_arctic_seals_sample": {
+    "D": 0.9433983973841573,
+    "p": 0.0,
+    "n_a": 1622,
+    "n_b": 718
+  },
+  "beluga_seeker_sam vs noaa_estuary_fish": {
+    "D": 0.5942058099862005,
+    "p": 0.0,
+    "n_a": 1622,
+    "n_b": 67990
+  },
+  "beluga_seeker_sam vs noaa_right_whale_heads": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 1622,
+    "n_b": 0
+  },
+  "beluga_seeker_sam vs uas_waterfowl_crowd": {
+    "D": 0.9938662358093456,
+    "p": 0.0,
+    "n_a": 1622,
+    "n_b": 2175
+  },
+  "beluga_seeker_sam vs uas_waterfowl_experts": {
+    "D": 0.7881102077816557,
+    "p": 0.0,
+    "n_a": 1622,
+    "n_b": 2243
+  },
+  "beluga_seeker_sam vs whales_from_space_sample": {
+    "D": 1.0,
+    "p": 1.01153975326216e-18,
+    "n_a": 1622,
+    "n_b": 20
+  },
+  "community_fish_detection vs izembek_lagoon_birds": {
+    "D": 0.9920146248593222,
+    "p": 0.0,
+    "n_a": 200000,
+    "n_b": 199925
+  },
+  "community_fish_detection vs noaa_arctic_seals_full_rgb": {
+    "D": 0.979411184054224,
+    "p": 0.0,
+    "n_a": 200000,
+    "n_b": 14311
+  },
+  "community_fish_detection vs noaa_arctic_seals_sample": {
+    "D": 0.9803094846796658,
+    "p": 0.0,
+    "n_a": 200000,
+    "n_b": 718
+  },
+  "community_fish_detection vs noaa_estuary_fish": {
+    "D": 0.6732187718782173,
+    "p": 0.0,
+    "n_a": 200000,
+    "n_b": 67990
+  },
+  "community_fish_detection vs noaa_right_whale_heads": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 200000,
+    "n_b": 0
+  },
+  "community_fish_detection vs uas_waterfowl_crowd": {
+    "D": 0.6394310919540229,
+    "p": 0.0,
+    "n_a": 200000,
+    "n_b": 2175
+  },
+  "community_fish_detection vs uas_waterfowl_experts": {
+    "D": 0.9582083927775301,
+    "p": 0.0,
+    "n_a": 200000,
+    "n_b": 2243
+  },
+  "community_fish_detection vs whales_from_space_sample": {
+    "D": 0.379845,
+    "p": 0.004267245462845586,
+    "n_a": 200000,
+    "n_b": 20
+  },
+  "izembek_lagoon_birds vs noaa_arctic_seals_full_rgb": {
+    "D": 0.9284475221636246,
+    "p": 0.0,
+    "n_a": 199925,
+    "n_b": 14311
+  },
+  "izembek_lagoon_birds vs noaa_arctic_seals_sample": {
+    "D": 0.9146543463548134,
+    "p": 0.0,
+    "n_a": 199925,
+    "n_b": 718
+  },
+  "izembek_lagoon_birds vs noaa_estuary_fish": {
+    "D": 0.9927596271163829,
+    "p": 0.0,
+    "n_a": 199925,
+    "n_b": 67990
+  },
+  "izembek_lagoon_birds vs noaa_right_whale_heads": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 199925,
+    "n_b": 0
+  },
+  "izembek_lagoon_birds vs uas_waterfowl_crowd": {
+    "D": 1.0,
+    "p": 0.0,
+    "n_a": 199925,
+    "n_b": 2175
+  },
+  "izembek_lagoon_birds vs uas_waterfowl_experts": {
+    "D": 0.9506452347182579,
+    "p": 0.0,
+    "n_a": 199925,
+    "n_b": 2243
+  },
+  "izembek_lagoon_birds vs whales_from_space_sample": {
+    "D": 1.0,
+    "p": 6.159095930999921e-19,
+    "n_a": 199925,
+    "n_b": 20
+  },
+  "noaa_arctic_seals_full_rgb vs noaa_arctic_seals_sample": {
+    "D": 0.03606289569412002,
+    "p": 0.3306410496959205,
+    "n_a": 14311,
+    "n_b": 718
+  },
+  "noaa_arctic_seals_full_rgb vs noaa_estuary_fish": {
+    "D": 0.9545384751355155,
+    "p": 0.0,
+    "n_a": 14311,
+    "n_b": 67990
+  },
+  "noaa_arctic_seals_full_rgb vs noaa_right_whale_heads": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 14311,
+    "n_b": 0
+  },
+  "noaa_arctic_seals_full_rgb vs uas_waterfowl_crowd": {
+    "D": 1.0,
+    "p": 0.0,
+    "n_a": 14311,
+    "n_b": 2175
+  },
+  "noaa_arctic_seals_full_rgb vs uas_waterfowl_experts": {
+    "D": 0.20004758318747728,
+    "p": 3.3328247833149604e-68,
+    "n_a": 14311,
+    "n_b": 2243
+  },
+  "noaa_arctic_seals_full_rgb vs whales_from_space_sample": {
+    "D": 1.0,
+    "p": 6.495656776903366e-19,
+    "n_a": 14311,
+    "n_b": 20
+  },
+  "noaa_arctic_seals_sample vs noaa_estuary_fish": {
+    "D": 0.9533956533834035,
+    "p": 0.0,
+    "n_a": 718,
+    "n_b": 67990
+  },
+  "noaa_arctic_seals_sample vs noaa_right_whale_heads": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 718,
+    "n_b": 0
+  },
+  "noaa_arctic_seals_sample vs uas_waterfowl_crowd": {
+    "D": 1.0,
+    "p": 0.0,
+    "n_a": 718,
+    "n_b": 2175
+  },
+  "noaa_arctic_seals_sample vs uas_waterfowl_experts": {
+    "D": 0.20583070574253293,
+    "p": 1.1793765589868312e-20,
+    "n_a": 718,
+    "n_b": 2243
+  },
+  "noaa_arctic_seals_sample vs whales_from_space_sample": {
+    "D": 1.0,
+    "p": 1.86700927641685e-18,
+    "n_a": 718,
+    "n_b": 20
+  },
+  "noaa_estuary_fish vs noaa_right_whale_heads": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 67990,
+    "n_b": 0
+  },
+  "noaa_estuary_fish vs uas_waterfowl_crowd": {
+    "D": 0.6669851719235249,
+    "p": 0.0,
+    "n_a": 67990,
+    "n_b": 2175
+  },
+  "noaa_estuary_fish vs uas_waterfowl_experts": {
+    "D": 0.896606684114793,
+    "p": 0.0,
+    "n_a": 67990,
+    "n_b": 2243
+  },
+  "noaa_estuary_fish vs whales_from_space_sample": {
+    "D": 0.9805412560670687,
+    "p": 3.208165233828794e-18,
+    "n_a": 67990,
+    "n_b": 20
+  },
+  "noaa_right_whale_heads vs uas_waterfowl_crowd": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 0,
+    "n_b": 2175
+  },
+  "noaa_right_whale_heads vs uas_waterfowl_experts": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 0,
+    "n_b": 2243
+  },
+  "noaa_right_whale_heads vs whales_from_space_sample": {
+    "D": NaN,
+    "p": NaN,
+    "n_a": 0,
+    "n_b": 20
+  },
+  "uas_waterfowl_crowd vs uas_waterfowl_experts": {
+    "D": 0.9995402298850574,
+    "p": 0.0,
+    "n_a": 2175,
+    "n_b": 2243
+  },
+  "uas_waterfowl_crowd vs whales_from_space_sample": {
+    "D": 0.9889655172413793,
+    "p": 2.254213342473938e-18,
+    "n_a": 2175,
+    "n_b": 20
+  },
+  "uas_waterfowl_experts vs whales_from_space_sample": {
+    "D": 1.0,
+    "p": 8.8178561926765e-19,
+    "n_a": 2243,
+    "n_b": 20
+  }
+}

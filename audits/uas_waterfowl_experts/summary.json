@@ -1,0 +1,172 @@
+{
+  "name": "uas_waterfowl_experts",
+  "domain": "aerien_non_marin",
+  "format": "coco",
+  "images_dir": "data/aerien_non_marin/uas_migratory_waterfowl/uas-imagery-of-migratory-waterfowl/experts/images",
+  "annotations": "data/aerien_non_marin/uas_migratory_waterfowl/coco_objet_experts.json",
+  "n_images_on_disk": 12,
+  "n_images_in_annotations": 12,
+  "image_formats": {
+    ".jpg": 12
+  },
+  "image_modes": {
+    "RGB": 12
+  },
+  "resolution_width_min_med_max": [
+    5472,
+    5472,
+    5472
+  ],
+  "resolution_height_min_med_max": [
+    3648,
+    3648,
+    3648
+  ],
+  "unique_resolutions": 1,
+  "n_objects": 2243,
+  "n_objects_valid": 2243,
+  "objects_per_image": {
+    "p5": 31.25,
+    "p25": 73.25,
+    "p50": 85.0,
+    "p75": 209.25,
+    "p95": 566.8999999999999,
+    "min": 23.0,
+    "max": 722.0,
+    "mean": 186.91666666666666,
+    "n": 12,
+    "histogram": {
+      "23": 1,
+      "38": 1,
+      "62": 1,
+      "77": 1,
+      "83": 1,
+      "84": 1,
+      "86": 1,
+      "115": 1,
+      "162": 1,
+      "351": 1,
+      "440": 1,
+      "722": 1
+    }
+  },
+  "n_images_without_label_file": 0,
+  "n_images_with_zero_objects": 0,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 0,
+  "box_w_px": {
+    "p5": 27.0,
+    "p25": 36.0,
+    "p50": 49.0,
+    "p75": 64.5,
+    "p95": 101.5,
+    "min": 13.0,
+    "max": 289.0,
+    "mean": 54.46210432456532,
+    "n": 2243
+  },
+  "box_h_px": {
+    "p5": 28.0,
+    "p25": 37.5,
+    "p50": 45.0,
+    "p75": 56.0,
+    "p95": 92.0,
+    "min": 12.5,
+    "max": 223.0,
+    "mean": 50.29424877396344,
+    "n": 2243
+  },
+  "box_area_px": {
+    "p5": 1080.0,
+    "p25": 1450.0,
+    "p50": 1970.25,
+    "p75": 3310.5,
+    "p95": 8003.700000000004,
+    "min": 450.0,
+    "max": 33524.0,
+    "mean": 3044.193379402586,
+    "n": 2243
+  },
+  "box_rel_area_pct": {
+    "p5": 0.00541,
+    "p25": 0.00726,
+    "p50": 0.00987,
+    "p75": 0.016585,
+    "p95": 0.04009800000000002,
+    "min": 0.00225,
+    "max": 0.16794,
+    "mean": 0.015249861792242534,
+    "n": 2243
+  },
+  "box_rel_side_pct": {
+    "p5": 0.7355270219373317,
+    "p25": 0.8520563361656318,
+    "p50": 0.9934787365615834,
+    "p75": 1.2878272624397633,
+    "p95": 2.002447821586199,
+    "min": 0.4743416490252569,
+    "max": 4.098048315967005,
+    "mean": 1.1472668237014767,
+    "n": 2243
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.56162,
+    "p25": 0.7447,
+    "p50": 1.0441,
+    "p75": 1.52395,
+    "p95": 2.0312,
+    "min": 0.25,
+    "max": 3.96,
+    "mean": 1.1579917521176994,
+    "n": 2243
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 3.25,
+    "medium_32-96": 93.31,
+    "large_>=96px2": 3.43
+  },
+  "classes": {
+    "objet": 2243
+  },
+  "schema": {
+    "images_in_json": 12,
+    "images_missing_on_disk": 0,
+    "annotation_keys": {
+      "id": 2243,
+      "image_id": 2243,
+      "category_id": 2243,
+      "bbox": 2243,
+      "area": 2243,
+      "iscrowd": 2243,
+      "source_class": 2243
+    },
+    "image_keys": {
+      "id": 12,
+      "file_name": 12,
+      "width": 12,
+      "height": 12,
+      "on_disk": 12
+    },
+    "categories": {
+      "1": "objet"
+    },
+    "licenses": [],
+    "info": {
+      "description": "uas_migratory_waterfowl_experts - COCO classe unique 'objet' (CAOD GoldenEye)",
+      "source_annotations": "/home/user/Bmark_Sogeti/data/aerien_non_marin/uas_migratory_waterfowl/uas-imagery-of-migratory-waterfowl/experts/20230331_dronesforducks_expert_refined.json",
+      "source_format": "coco",
+      "license": "voir json licenses",
+      "source_classes_kept": {
+        "Canadian Goose": 140,
+        "Sandhill Crane": 52,
+        "Mallard": 1688,
+        "Northern Pintail": 262,
+        "American Wigeon": 22,
+        "Other": 70,
+        "Teal": 2,
+        "Gadwall": 5,
+        "Northern Shoveler": 2
+      }
+    }
+  }
+}

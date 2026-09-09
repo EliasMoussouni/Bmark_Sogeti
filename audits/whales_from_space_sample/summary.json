@@ -1,0 +1,124 @@
+{
+  "name": "whales_from_space_sample",
+  "domain": "satellite",
+  "format": "yolo",
+  "images_dir": "data/satellite/WSDataset/WS/images",
+  "annotations": "data/satellite/WSDataset/WS/labels",
+  "n_images_on_disk": 20,
+  "n_images_in_annotations": 20,
+  "image_formats": {
+    ".png": 20
+  },
+  "image_modes": {
+    "L": 20
+  },
+  "resolution_width_min_med_max": [
+    128,
+    128,
+    144
+  ],
+  "resolution_height_min_med_max": [
+    128,
+    129,
+    145
+  ],
+  "unique_resolutions": 5,
+  "n_objects": 20,
+  "n_objects_valid": 20,
+  "objects_per_image": {
+    "p5": 1.0,
+    "p25": 1.0,
+    "p50": 1.0,
+    "p75": 1.0,
+    "p95": 1.0,
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "n": 20,
+    "histogram": {
+      "1": 20
+    }
+  },
+  "n_images_without_label_file": 0,
+  "n_images_with_zero_objects": 0,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 0,
+  "box_w_px": {
+    "p5": 19.95,
+    "p25": 22.25,
+    "p50": 30.0,
+    "p75": 34.0,
+    "p95": 66.0,
+    "min": 19.0,
+    "max": 66.0,
+    "mean": 32.1,
+    "n": 20
+  },
+  "box_h_px": {
+    "p5": 24.0,
+    "p25": 33.0,
+    "p50": 33.0,
+    "p75": 45.5625,
+    "p95": 56.0,
+    "min": 24.0,
+    "max": 56.0,
+    "mean": 37.2815,
+    "n": 20
+  },
+  "box_area_px": {
+    "p5": 660.0,
+    "p25": 720.0,
+    "p50": 759.0,
+    "p75": 1496.0,
+    "p95": 3696.0,
+    "min": 660.0,
+    "max": 3696.0,
+    "mean": 1296.069,
+    "n": 20
+  },
+  "box_rel_area_pct": {
+    "p5": 3.95062,
+    "p25": 4.02832,
+    "p50": 4.56102,
+    "p75": 9.13086,
+    "p95": 22.55859,
+    "min": 3.95062,
+    "max": 22.55859,
+    "mean": 7.640497000000002,
+    "n": 20
+  },
+  "box_rel_side_pct": {
+    "p5": 19.876166632426887,
+    "p25": 20.070675125665304,
+    "p50": 21.356544664341186,
+    "p75": 30.217312918259292,
+    "p95": 47.495884032197985,
+    "min": 19.876166632426887,
+    "max": 47.495884032197985,
+    "mean": 26.131176375771922,
+    "n": 20
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.596305,
+    "p25": 0.674275,
+    "p50": 0.7505,
+    "p75": 1.1786,
+    "p95": 1.25,
+    "min": 0.4102,
+    "max": 1.25,
+    "mean": 0.866935,
+    "n": 20
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 65.0,
+    "medium_32-96": 35.0,
+    "large_>=96px2": 0.0
+  },
+  "classes": {
+    "0": 20
+  },
+  "schema": {
+    "bbox_lines": 20,
+    "bad_lines": 0
+  }
+}

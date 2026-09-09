@@ -1,0 +1,183 @@
+{
+  "name": "beluga_seeker_sam",
+  "domain": "satellite",
+  "format": "coco",
+  "images_dir": "data/satellite/beluga_seeker/images",
+  "annotations": "data/satellite/beluga_seeker/coco_objet_sam.json",
+  "n_images_on_disk": 4,
+  "n_images_in_annotations": 538,
+  "image_formats": {
+    ".png": 4
+  },
+  "image_modes": {
+    "RGB": 4
+  },
+  "resolution_width_min_med_max": [
+    192,
+    320,
+    320
+  ],
+  "resolution_height_min_med_max": [
+    192,
+    320,
+    320
+  ],
+  "unique_resolutions": 2,
+  "n_objects": 1622,
+  "n_objects_valid": 1622,
+  "objects_per_image": {
+    "p5": 1.0,
+    "p25": 1.0,
+    "p50": 1.0,
+    "p75": 2.0,
+    "p95": 11.149999999999977,
+    "min": 1.0,
+    "max": 74.0,
+    "mean": 3.0148698884758365,
+    "n": 538,
+    "histogram": {
+      "1": 316,
+      "2": 103,
+      "3": 34,
+      "4": 18,
+      "5": 11,
+      "6": 9,
+      "7": 7,
+      "8": 2,
+      "9": 4,
+      "10": 4,
+      "11": 3,
+      "12": 5,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 3,
+      "17": 1,
+      "18": 2,
+      "20": 2,
+      "21": 1,
+      "23": 2,
+      "25": 1,
+      "26": 1,
+      "31": 1,
+      "32": 1,
+      "34": 1,
+      "43": 1,
+      "68": 1,
+      "74": 1
+    }
+  },
+  "n_images_without_label_file": 0,
+  "n_images_with_zero_objects": 0,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 0,
+  "box_w_px": {
+    "p5": 4.0,
+    "p25": 5.0,
+    "p50": 7.0,
+    "p75": 10.0,
+    "p95": 13.0,
+    "min": 2.0,
+    "max": 20.0,
+    "mean": 7.69173859432799,
+    "n": 1622
+  },
+  "box_h_px": {
+    "p5": 4.0,
+    "p25": 6.0,
+    "p50": 7.0,
+    "p75": 10.0,
+    "p95": 13.0,
+    "min": 2.0,
+    "max": 20.0,
+    "mean": 7.8335388409371145,
+    "n": 1622
+  },
+  "box_area_px": {
+    "p5": 20.0,
+    "p25": 30.0,
+    "p50": 56.0,
+    "p75": 88.0,
+    "p95": 132.0,
+    "min": 4.0,
+    "max": 256.0,
+    "mean": 63.70345252774353,
+    "n": 1622
+  },
+  "box_rel_area_pct": {
+    "p5": 0.02344,
+    "p25": 0.03516,
+    "p50": 0.06445,
+    "p75": 0.09494,
+    "p95": 0.13965,
+    "min": 0.00391,
+    "max": 0.26042,
+    "mean": 0.06940868064118373,
+    "n": 1622
+  },
+  "box_rel_side_pct": {
+    "p5": 1.531012736720371,
+    "p25": 1.8750999973334754,
+    "p50": 2.5387004549572203,
+    "p75": 3.081233519225701,
+    "p95": 3.736977388210959,
+    "min": 0.6252999280345393,
+    "max": 5.103136290557013,
+    "mean": 2.5302705353704398,
+    "n": 1622
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.5556,
+    "p25": 0.7548,
+    "p50": 1.0,
+    "p75": 1.2222,
+    "p95": 1.75,
+    "min": 0.2,
+    "max": 3.25,
+    "mean": 1.036522441430333,
+    "n": 1622
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 100.0,
+    "medium_32-96": 0.0,
+    "large_>=96px2": 0.0
+  },
+  "classes": {
+    "objet": 1622
+  },
+  "schema": {
+    "images_in_json": 538,
+    "images_missing_on_disk": 534,
+    "annotation_keys": {
+      "id": 1622,
+      "image_id": 1622,
+      "category_id": 1622,
+      "bbox": 1622,
+      "area": 1622,
+      "iscrowd": 1622,
+      "source_class": 1622
+    },
+    "image_keys": {
+      "id": 538,
+      "file_name": 538,
+      "width": 538,
+      "height": 538,
+      "on_disk": 538
+    },
+    "categories": {
+      "1": "objet"
+    },
+    "licenses": [],
+    "info": {
+      "description": "beluga_seeker_sam - COCO classe unique 'objet' (CAOD GoldenEye)",
+      "source_annotations": "/home/user/Bmark_Sogeti/data/satellite/beluga_seeker/annotations/coco_anns_sam_BUF_7.json",
+      "source_format": "coco",
+      "license": "",
+      "source_classes_kept": {
+        "certain whale": 677,
+        "uncertain whale": 403,
+        "harp seal": 542
+      }
+    }
+  }
+}

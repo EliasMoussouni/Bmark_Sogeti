@@ -1,0 +1,186 @@
+{
+  "name": "uas_waterfowl_crowd",
+  "domain": "aerien_non_marin",
+  "format": "coco",
+  "images_dir": "data/aerien_non_marin/uas_migratory_waterfowl/uas-imagery-of-migratory-waterfowl/crowdsourced/images",
+  "annotations": "data/aerien_non_marin/uas_migratory_waterfowl/coco_objet_crowd.json",
+  "n_images_on_disk": 356,
+  "n_images_in_annotations": 338,
+  "image_formats": {
+    ".png": 356
+  },
+  "image_modes": {
+    "RGB": 356
+  },
+  "resolution_width_min_med_max": [
+    684,
+    684,
+    684
+  ],
+  "resolution_height_min_med_max": [
+    521,
+    521,
+    521
+  ],
+  "unique_resolutions": 1,
+  "n_objects": 2175,
+  "n_objects_valid": 2175,
+  "objects_per_image": {
+    "p5": 1.0,
+    "p25": 2.0,
+    "p50": 4.0,
+    "p75": 8.0,
+    "p95": 20.0,
+    "min": 1.0,
+    "max": 68.0,
+    "mean": 6.43491124260355,
+    "n": 338,
+    "histogram": {
+      "1": 70,
+      "2": 61,
+      "3": 36,
+      "4": 28,
+      "5": 18,
+      "6": 23,
+      "7": 15,
+      "8": 9,
+      "9": 10,
+      "10": 11,
+      "11": 5,
+      "12": 6,
+      "13": 8,
+      "14": 2,
+      "15": 6,
+      "16": 4,
+      "17": 2,
+      "18": 1,
+      "19": 4,
+      "20": 3,
+      "21": 2,
+      "22": 2,
+      "23": 2,
+      "26": 1,
+      "27": 1,
+      "33": 1,
+      "39": 2,
+      "42": 1,
+      "48": 1,
+      "50": 1,
+      "53": 1,
+      "68": 1
+    }
+  },
+  "n_images_without_label_file": 18,
+  "n_images_with_zero_objects": 0,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 312,
+  "box_w_px": {
+    "p5": 30.694,
+    "p25": 40.325,
+    "p50": 54.0,
+    "p75": 70.655,
+    "p95": 98.64699999999986,
+    "min": 18.0,
+    "max": 266.8,
+    "mean": 58.10967816091954,
+    "n": 2175
+  },
+  "box_h_px": {
+    "p5": 32.088,
+    "p25": 42.085,
+    "p50": 49.13,
+    "p75": 60.0,
+    "p95": 89.0,
+    "min": 16.99,
+    "max": 226.0,
+    "mean": 53.64552643678161,
+    "n": 2175
+  },
+  "box_area_px": {
+    "p5": 1331.408,
+    "p25": 1798.385,
+    "p50": 2530.0,
+    "p75": 3917.7,
+    "p95": 7552.426999999993,
+    "min": 524.99,
+    "max": 36304.1,
+    "mean": 3328.0453977011493,
+    "n": 2175
+  },
+  "box_rel_area_pct": {
+    "p5": 0.37361099999999997,
+    "p25": 0.50465,
+    "p50": 0.70995,
+    "p75": 1.09935,
+    "p95": 2.119298999999998,
+    "min": 0.14732,
+    "max": 10.18736,
+    "mean": 0.9338893563218391,
+    "n": 2175
+  },
+  "box_rel_side_pct": {
+    "p5": 6.112372678633384,
+    "p25": 7.103872141344793,
+    "p50": 8.425853072538116,
+    "p75": 10.484987293985608,
+    "p95": 14.557808484453387,
+    "min": 3.83822875816437,
+    "max": 31.91764402332979,
+    "mean": 9.17985349683729,
+    "n": 2175
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.59246,
+    "p25": 0.77085,
+    "p50": 1.0419,
+    "p75": 1.4395,
+    "p95": 1.99053,
+    "min": 0.3505,
+    "max": 4.3315,
+    "mean": 1.1473862068965517,
+    "n": 2175
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 1.1,
+    "medium_32-96": 96.28,
+    "large_>=96px2": 2.62
+  },
+  "classes": {
+    "objet": 2175
+  },
+  "schema": {
+    "images_in_json": 338,
+    "images_missing_on_disk": 0,
+    "annotation_keys": {
+      "id": 2175,
+      "image_id": 2175,
+      "category_id": 2175,
+      "bbox": 2175,
+      "area": 2175,
+      "iscrowd": 2175,
+      "source_class": 2175
+    },
+    "image_keys": {
+      "id": 338,
+      "file_name": 338,
+      "width": 338,
+      "height": 338,
+      "on_disk": 338
+    },
+    "categories": {
+      "1": "objet"
+    },
+    "licenses": [],
+    "info": {
+      "description": "uas_migratory_waterfowl_crowd - COCO classe unique 'objet' (CAOD GoldenEye)",
+      "source_annotations": "/home/user/Bmark_Sogeti/data/aerien_non_marin/uas_migratory_waterfowl/uas-imagery-of-migratory-waterfowl/crowdsourced/20240220_dronesforducks_zooniverse_refined.json",
+      "source_format": "coco",
+      "license": "voir json licenses",
+      "source_classes_kept": {
+        "Crane": 52,
+        "Goose": 120,
+        "Duck": 2003
+      }
+    }
+  }
+}

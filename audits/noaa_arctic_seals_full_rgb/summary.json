@@ -1,0 +1,194 @@
+{
+  "name": "noaa_arctic_seals_full_rgb",
+  "domain": "aerien",
+  "format": "coco",
+  "images_dir": "data/aerien/noaa_arctic_seals_2019",
+  "annotations": "data/aerien/noaa_arctic_seals_2019/coco_objet_full_rgb.json",
+  "n_images_on_disk": 216,
+  "n_images_in_annotations": 44185,
+  "image_formats": {
+    ".jpg": 216
+  },
+  "image_modes": {
+    "RGB": 216
+  },
+  "resolution_width_min_med_max": [
+    6576,
+    6576,
+    6576
+  ],
+  "resolution_height_min_med_max": [
+    4384,
+    4384,
+    4384
+  ],
+  "unique_resolutions": 1,
+  "n_objects": 14311,
+  "n_objects_valid": 14311,
+  "objects_per_image": {
+    "p5": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 0.0,
+    "p95": 2.0,
+    "min": 0.0,
+    "max": 54.0,
+    "mean": 0.32388819735204255,
+    "n": 44185,
+    "histogram": {
+      "0": 40072,
+      "1": 1658,
+      "2": 936,
+      "3": 419,
+      "4": 288,
+      "5": 180,
+      "6": 136,
+      "7": 98,
+      "8": 65,
+      "9": 54,
+      "10": 37,
+      "11": 33,
+      "12": 27,
+      "13": 23,
+      "14": 15,
+      "15": 25,
+      "16": 9,
+      "17": 15,
+      "18": 7,
+      "19": 7,
+      "20": 4,
+      "21": 7,
+      "22": 3,
+      "23": 5,
+      "24": 6,
+      "25": 8,
+      "26": 2,
+      "27": 5,
+      "28": 4,
+      "29": 4,
+      "30": 2,
+      "31": 3,
+      "32": 5,
+      "33": 3,
+      "34": 3,
+      "35": 2,
+      "36": 4,
+      "37": 1,
+      "38": 2,
+      "40": 2,
+      "43": 3,
+      "47": 2,
+      "54": 1
+    }
+  },
+  "n_images_without_label_file": 0,
+  "n_images_with_zero_objects": 40072,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 54,
+  "box_w_px": {
+    "p5": 31.0,
+    "p25": 40.0,
+    "p50": 52.0,
+    "p75": 66.0,
+    "p95": 83.0,
+    "min": 6.0,
+    "max": 163.0,
+    "mean": 54.37761162741947,
+    "n": 14311
+  },
+  "box_h_px": {
+    "p5": 32.0,
+    "p25": 42.0,
+    "p50": 54.0,
+    "p75": 65.0,
+    "p95": 82.0,
+    "min": 11.0,
+    "max": 150.0,
+    "mean": 54.86653623087136,
+    "n": 14311
+  },
+  "box_area_px": {
+    "p5": 1458.0,
+    "p25": 2135.0,
+    "p50": 2660.0,
+    "p75": 3420.0,
+    "p95": 5092.0,
+    "min": 165.0,
+    "max": 16799.0,
+    "mean": 2955.2675564251276,
+    "n": 14311
+  },
+  "box_rel_area_pct": {
+    "p5": 0.00506,
+    "p25": 0.00741,
+    "p50": 0.00923,
+    "p75": 0.01186,
+    "p95": 0.017665,
+    "min": 0.00057,
+    "max": 0.05827,
+    "mean": 0.010251029278177627,
+    "n": 14311
+  },
+  "box_rel_side_pct": {
+    "p5": 0.7113367697511497,
+    "p25": 0.8608135686662938,
+    "p50": 0.960728889958036,
+    "p75": 1.0890362712049586,
+    "p95": 1.3290973183231074,
+    "min": 0.2387467277262664,
+    "max": 2.413917977065501,
+    "mean": 0.9891418924595331,
+    "n": 14311
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.4828,
+    "p25": 0.65,
+    "p50": 0.9643,
+    "p75": 1.4872,
+    "p95": 2.0811,
+    "min": 0.1935,
+    "max": 4.3214,
+    "mean": 1.1013665012927119,
+    "n": 14311
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 1.61,
+    "medium_32-96": 97.35,
+    "large_>=96px2": 1.04
+  },
+  "classes": {
+    "objet": 14311
+  },
+  "schema": {
+    "images_in_json": 44185,
+    "images_missing_on_disk": 43969,
+    "annotation_keys": {
+      "id": 14311,
+      "image_id": 14311,
+      "category_id": 14311,
+      "bbox": 14311,
+      "area": 14311,
+      "iscrowd": 14311,
+      "source_class": 14311,
+      "detection_score": 14311
+    },
+    "image_keys": {
+      "id": 44185,
+      "file_name": 44185,
+      "width": 44185,
+      "height": 44185,
+      "on_disk": 44185
+    },
+    "categories": {
+      "1": "objet"
+    },
+    "licenses": [],
+    "info": {
+      "description": "NOAA Arctic Seals 2019 (LILA) - toutes les images RGB (annotations seules) - COCO classe unique 'objet'",
+      "license": "CDLA-Permissive 1.0 (voir page LILA)",
+      "source": "https://storage.googleapis.com/public-datasets-lila/noaa-kotz/",
+      "note": "rgb_top/rgb_bottom sont parfois inversés dans le CSV source ; normalisés par min/max",
+      "image_size_assumption": "6576x4384 pour toutes les images RGB (taille observée sur 202 images téléchargées, 1 taille(s) distincte(s))"
+    }
+  }
+}

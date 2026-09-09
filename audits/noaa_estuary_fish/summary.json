@@ -1,0 +1,195 @@
+{
+  "name": "noaa_estuary_fish",
+  "domain": "sous-marin",
+  "format": "coco",
+  "images_dir": "data/sous-marin/noaa_estuary_fish",
+  "annotations": "data/sous-marin/noaa_estuary_fish/coco_objet.json",
+  "n_images_on_disk": 0,
+  "n_images_in_annotations": 77689,
+  "image_formats": {},
+  "image_modes": {},
+  "resolution_width_min_med_max": [
+    1920,
+    1920,
+    1920
+  ],
+  "resolution_height_min_med_max": [
+    1080,
+    1080,
+    1080
+  ],
+  "unique_resolutions": 1,
+  "n_objects": 67990,
+  "n_objects_valid": 67990,
+  "objects_per_image": {
+    "p5": 0.0,
+    "p25": 0.0,
+    "p50": 0.0,
+    "p75": 1.0,
+    "p95": 4.0,
+    "min": 0.0,
+    "max": 69.0,
+    "mean": 0.8751560710010426,
+    "n": 77689,
+    "histogram": {
+      "0": 47305,
+      "1": 18044,
+      "2": 5508,
+      "3": 2280,
+      "4": 1365,
+      "5": 847,
+      "6": 539,
+      "7": 395,
+      "8": 326,
+      "9": 242,
+      "10": 224,
+      "11": 176,
+      "12": 108,
+      "13": 70,
+      "14": 50,
+      "15": 28,
+      "16": 37,
+      "17": 18,
+      "18": 23,
+      "19": 9,
+      "20": 12,
+      "21": 16,
+      "22": 9,
+      "23": 7,
+      "24": 4,
+      "25": 2,
+      "26": 3,
+      "27": 7,
+      "28": 4,
+      "29": 7,
+      "30": 1,
+      "31": 3,
+      "32": 2,
+      "33": 2,
+      "34": 4,
+      "35": 3,
+      "36": 2,
+      "40": 1,
+      "43": 1,
+      "54": 1,
+      "60": 1,
+      "64": 1,
+      "66": 1,
+      "69": 1
+    }
+  },
+  "n_images_without_label_file": 0,
+  "n_images_with_zero_objects": 47305,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 0,
+  "box_w_px": {
+    "p5": 27.844500000000004,
+    "p25": 55.2025,
+    "p50": 82.32,
+    "p75": 126.48,
+    "p95": 249.53,
+    "min": 1.39,
+    "max": 1920.0,
+    "mean": 106.46776408295338,
+    "n": 67990
+  },
+  "box_h_px": {
+    "p5": 20.86,
+    "p25": 34.65,
+    "p50": 51.0,
+    "p75": 78.84,
+    "p95": 164.75,
+    "min": 2.78,
+    "max": 1080.0,
+    "mean": 67.87045800853066,
+    "n": 67990
+  },
+  "box_area_px": {
+    "p5": 785.307,
+    "p25": 2089.43,
+    "p50": 3984.83,
+    "p75": 8922.7925,
+    "p95": 35160.836999999985,
+    "min": 3.86,
+    "max": 2073600.0,
+    "mean": 11363.202722459184,
+    "n": 67990
+  },
+  "box_rel_area_pct": {
+    "p5": 0.03787,
+    "p25": 0.10076,
+    "p50": 0.19217,
+    "p75": 0.4303,
+    "p95": 1.6956424999999993,
+    "min": 0.00019,
+    "max": 100.0,
+    "mean": 0.5479939691131049,
+    "n": 67990
+  },
+  "box_rel_side_pct": {
+    "p5": 1.946021582614129,
+    "p25": 3.1742715699826314,
+    "p50": 4.383719881561777,
+    "p75": 6.5597256026887205,
+    "p95": 13.021683835737056,
+    "min": 0.13784048752090222,
+    "max": 100.0,
+    "mean": 5.686886886329221,
+    "n": 67990
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.5281450000000001,
+    "p25": 1.1135,
+    "p50": 1.6662499999999998,
+    "p75": 2.3335,
+    "p95": 3.3997,
+    "min": 0.1308,
+    "max": 14.8856,
+    "mean": 1.8110053375496398,
+    "n": 67990
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 8.08,
+    "medium_32-96": 67.74,
+    "large_>=96px2": 24.18
+  },
+  "classes": {
+    "objet": 67990
+  },
+  "schema": {
+    "images_in_json": 77689,
+    "images_missing_on_disk": 77689,
+    "annotation_keys": {
+      "id": 67990,
+      "image_id": 67990,
+      "category_id": 67990,
+      "bbox": 67990,
+      "area": 67990,
+      "iscrowd": 67990,
+      "source_class": 67990
+    },
+    "image_keys": {
+      "id": 77689,
+      "file_name": 77689,
+      "width": 77689,
+      "height": 77689,
+      "on_disk": 77689
+    },
+    "categories": {
+      "1": "objet"
+    },
+    "licenses": [],
+    "info": {
+      "description": "noaa_estuary_fish - COCO classe unique 'objet' (CAOD GoldenEye)",
+      "source_annotations": "/home/user/Bmark_Sogeti/data/sous-marin/noaa_estuary_fish/noaa_estuary_fish-2023.08.19.json",
+      "source_format": "coco",
+      "license": "CDLA-Permissive 1.0 (LILA)",
+      "source_classes_kept": {
+        "unknown": 620,
+        "fish": 56158,
+        "fish_or_crab": 5927,
+        "crab": 5285
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "noaa_arctic_seals_sample",
+  "domain": "aerien",
+  "format": "coco",
+  "images_dir": "data/aerien/noaa_arctic_seals_2019",
+  "annotations": "data/aerien/noaa_arctic_seals_2019/coco_objet_sample.json",
+  "n_images_on_disk": 216,
+  "n_images_in_annotations": 202,
+  "image_formats": {
+    ".jpg": 216
+  },
+  "image_modes": {
+    "RGB": 216
+  },
+  "resolution_width_min_med_max": [
+    6576,
+    6576,
+    6576
+  ],
+  "resolution_height_min_med_max": [
+    4384,
+    4384,
+    4384
+  ],
+  "unique_resolutions": 1,
+  "n_objects": 718,
+  "n_objects_valid": 718,
+  "objects_per_image": {
+    "p5": 1.0,
+    "p25": 1.0,
+    "p50": 2.0,
+    "p75": 3.0,
+    "p95": 11.949999999999989,
+    "min": 1.0,
+    "max": 47.0,
+    "mean": 3.5544554455445545,
+    "n": 202,
+    "histogram": {
+      "1": 87,
+      "2": 43,
+      "3": 31,
+      "4": 8,
+      "5": 6,
+      "6": 3,
+      "7": 4,
+      "8": 4,
+      "9": 2,
+      "11": 3,
+      "12": 1,
+      "14": 1,
+      "15": 3,
+      "16": 1,
+      "24": 1,
+      "27": 1,
+      "29": 1,
+      "47": 2
+    }
+  },
+  "n_images_without_label_file": 14,
+  "n_images_with_zero_objects": 0,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 1,
+  "box_w_px": {
+    "p5": 29.85,
+    "p25": 40.0,
+    "p50": 52.0,
+    "p75": 65.0,
+    "p95": 86.0,
+    "min": 15.0,
+    "max": 146.0,
+    "mean": 53.92757660167131,
+    "n": 718
+  },
+  "box_h_px": {
+    "p5": 31.0,
+    "p25": 40.0,
+    "p50": 53.0,
+    "p75": 64.0,
+    "p95": 82.0,
+    "min": 21.0,
+    "max": 136.0,
+    "mean": 54.22423398328691,
+    "n": 718
+  },
+  "box_area_px": {
+    "p5": 1289.75,
+    "p25": 2074.75,
+    "p50": 2660.0,
+    "p75": 3342.75,
+    "p95": 4852.95,
+    "min": 437.0,
+    "max": 12240.0,
+    "mean": 2903.566852367688,
+    "n": 718
+  },
+  "box_rel_area_pct": {
+    "p5": 0.004472,
+    "p25": 0.0071925,
+    "p50": 0.00923,
+    "p75": 0.011595,
+    "p95": 0.016836,
+    "min": 0.00152,
+    "max": 0.04246,
+    "mean": 0.010071866295264624,
+    "n": 718
+  },
+  "box_rel_side_pct": {
+    "p5": 0.6687223925897628,
+    "p25": 0.8480860421269665,
+    "p50": 0.960728889958036,
+    "p75": 1.0768007421164676,
+    "p95": 1.2975360100318105,
+    "min": 0.38987177379235854,
+    "max": 2.0605824419323775,
+    "mean": 0.9778119509304941,
+    "n": 718
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.4783,
+    "p25": 0.63495,
+    "p50": 0.93215,
+    "p75": 1.5526,
+    "p95": 2.1230149999999997,
+    "min": 0.3209,
+    "max": 2.7742,
+    "mean": 1.1092435933147633,
+    "n": 718
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 2.65,
+    "medium_32-96": 96.1,
+    "large_>=96px2": 1.25
+  },
+  "classes": {
+    "objet": 718
+  },
+  "schema": {
+    "images_in_json": 202,
+    "images_missing_on_disk": 0,
+    "annotation_keys": {
+      "id": 718,
+      "image_id": 718,
+      "category_id": 718,
+      "bbox": 718,
+      "area": 718,
+      "iscrowd": 718,
+      "source_class": 718,
+      "detection_score": 718
+    },
+    "image_keys": {
+      "id": 202,
+      "file_name": 202,
+      "width": 202,
+      "height": 202,
+      "flight": 202,
+      "camera": 202
+    },
+    "categories": {
+      "1": "objet"
+    },
+    "licenses": [],
+    "info": {
+      "description": "NOAA Arctic Seals 2019 (LILA) - échantillon RGB - COCO classe unique 'objet'",
+      "license": "CDLA-Permissive 1.0 (voir page LILA)",
+      "source": "https://storage.googleapis.com/public-datasets-lila/noaa-kotz/",
+      "note": "rgb_top/rgb_bottom sont parfois inversés dans le CSV source ; normalisés par min/max"
+    }
+  }
+}

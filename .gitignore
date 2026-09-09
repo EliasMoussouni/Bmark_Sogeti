@@ -1,0 +1,20 @@
+# Images des jeux téléchargés : non versionnées (8 Go de phoques, 336 Mo de drone...) ; réexécuter scripts/fetch_*.sh
+data/**/*.jpg
+data/**/*.JPG
+data/**/*.jpeg
+data/**/*.tif
+data/**/*.tiff
+data/**/*.png
+data/**/*.PNG
+data/**/*.part
+# exceptions : petits échantillons redistribuables
+!data/satellite/WSDataset/**
+!data/satellite/beluga_seeker/images/**
+# fichiers d'annotations > 50 Mo (limite GitHub 100 Mo) : régénérables via scripts/fetch_lila_misc.sh + to_coco_single_class.py
+data/sous-marin/community_fish_detection/*.json
+data/aerien_non_marin/izembek_lagoon_birds/*.json
+data/aerien/noaa_arctic_seals_2019/coco_objet_full_rgb.json
+audits/community_fish_detection/*.csv
+audits/izembek_lagoon_birds/boxes.csv
+tmp_repos/
+__pycache__/

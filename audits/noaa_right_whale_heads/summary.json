@@ -1,0 +1,142 @@
+{
+  "name": "noaa_right_whale_heads",
+  "domain": "aerien",
+  "format": "coco",
+  "images_dir": "data/aerien/noaa_right_whale_kaggle_annotations",
+  "annotations": "data/aerien/noaa_right_whale_kaggle_annotations/coco_objet_vinh_heads.json",
+  "n_images_on_disk": 0,
+  "n_images_in_annotations": 4544,
+  "image_formats": {},
+  "image_modes": {},
+  "resolution_width_min_med_max": null,
+  "resolution_height_min_med_max": null,
+  "unique_resolutions": 0,
+  "n_objects": 4547,
+  "n_objects_valid": 0,
+  "objects_per_image": {
+    "p5": 1.0,
+    "p25": 1.0,
+    "p50": 1.0,
+    "p75": 1.0,
+    "p95": 1.0,
+    "min": 1.0,
+    "max": 2.0,
+    "mean": 1.0006602112676057,
+    "n": 4544,
+    "histogram": {
+      "1": 4541,
+      "2": 3
+    }
+  },
+  "n_images_without_label_file": 0,
+  "n_images_with_zero_objects": 0,
+  "n_boxes_degenerate": 0,
+  "n_boxes_out_of_frame": 0,
+  "box_w_px": {
+    "p5": 347.114,
+    "p25": 465.07,
+    "p50": 565.21,
+    "p75": 689.59,
+    "p95": 1035.374999999999,
+    "min": 9.39,
+    "max": 1780.82,
+    "mean": 604.2350604794369,
+    "n": 4547
+  },
+  "box_h_px": {
+    "p5": 310.314,
+    "p25": 418.97,
+    "p50": 511.58,
+    "p75": 633.2049999999999,
+    "p95": 933.98,
+    "min": 4.69,
+    "max": 1754.93,
+    "mean": 549.7455289201671,
+    "n": 4547
+  },
+  "box_area_px": {
+    "p5": 113569.557,
+    "p25": 200836.31,
+    "p50": 287921.97,
+    "p75": 425096.79,
+    "p95": 938689.6939999998,
+    "min": 44.04,
+    "max": 2871679.71,
+    "mean": 365541.43998680444,
+    "n": 4547
+  },
+  "box_rel_area_pct": {
+    "p5": null,
+    "p25": null,
+    "p50": null,
+    "p75": null,
+    "p95": null,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "n": 0
+  },
+  "box_rel_side_pct": {
+    "p5": null,
+    "p25": null,
+    "p50": null,
+    "p75": null,
+    "p95": null,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "n": 0
+  },
+  "box_aspect_w_over_h": {
+    "p5": 0.80355,
+    "p25": 0.9726,
+    "p50": 1.1097,
+    "p75": 1.25935,
+    "p95": 1.4746099999999998,
+    "min": 0.5637,
+    "max": 2.0513,
+    "mean": 1.121317681988124,
+    "n": 4547
+  },
+  "coco_size_buckets_pct": {
+    "small_<32px2": 0.02,
+    "medium_32-96": 0.0,
+    "large_>=96px2": 99.98
+  },
+  "classes": {
+    "objet": 4547
+  },
+  "schema": {
+    "images_in_json": 4544,
+    "images_missing_on_disk": 4544,
+    "annotation_keys": {
+      "id": 4547,
+      "image_id": 4547,
+      "category_id": 4547,
+      "bbox": 4547,
+      "area": 4547,
+      "iscrowd": 4547,
+      "source_class": 4547
+    },
+    "image_keys": {
+      "id": 4544,
+      "file_name": 4544,
+      "width": 4544,
+      "height": 4544,
+      "on_disk": 4544
+    },
+    "categories": {
+      "1": "objet"
+    },
+    "licenses": [],
+    "info": {
+      "description": "noaa_right_whale_heads - COCO classe unique 'objet' (CAOD GoldenEye)",
+      "source_annotations": "/home/user/Bmark_Sogeti/data/aerien/noaa_right_whale_kaggle_annotations/annotations/whale_faces_vinh.json",
+      "source_format": "sloth",
+      "license": "annotations MIT ; images Kaggle (règles de compétition)",
+      "source_classes_kept": {
+        "Head": 4547
+      }
+    }
+  }
+}
